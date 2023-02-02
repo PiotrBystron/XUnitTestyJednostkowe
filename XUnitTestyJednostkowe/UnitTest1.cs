@@ -1,19 +1,23 @@
-using ConsolApp3;
 using System;
 using Xunit;
 
 
-namespace XUnitTestyJednostkowe
+namespace RownanieKwadratowe1.Testy
 {
-
-    public class UnitTest1
+    public class RownanieKwadratoweTesty
     {
-        [Fact]
-        public void Test1()
+        public void liczRownanie_SprawdzanieObliczeñDlaDelty_i_wynikow(double a, double b, double c, double wynik)
         {
-            Rect rect = new Rect(2, 3);
-            int res = rect.Area();
-            Assert.Equal(6, res);
+            //arrange
+            RownanieKwadratowe o1 = new RownanieKwadratowe();
+            o1.a = a;
+            o1.b = b;
+            o1.c = c;
+
+            //act
+
+            //assert
+
         }
     }
 }

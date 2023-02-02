@@ -1,21 +1,15 @@
 ﻿using System;
 
 
-namespace ConsolApp3
+namespace RownanieKwadratowe1
 {
-    public class Rect
+    public class RownanieKwadratowe
     {
-        private int w, h;
+        public double a, b, c, x1, x2, delta;
 
-        public Rect(int w, int h)
-        {
-            this.w = w;
-            this.h = h;
-        }
 
-        public int Area()
-        {
-            return w * h;
-        }
+       
+
+
     }
 }
