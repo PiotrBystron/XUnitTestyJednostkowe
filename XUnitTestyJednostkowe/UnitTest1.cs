@@ -18,9 +18,12 @@ namespace RownanieKwadratowe1.Testy
             o1.c = c;
 
             //act
+            o1.liczenieRownanie();
+            double wynikDelty = o1.delta;
 
             //assert
             Assert.Equal(2,2);
+            //Assert.Equal(wynikDelty, wynik);
 
         }
     }
