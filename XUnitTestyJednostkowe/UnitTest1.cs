@@ -14,6 +14,8 @@ namespace RownanieKwadratowe1.Testy
         [InlineData(1, 2, 3, -8)]
         [InlineData(-3, 9, 3, 117)]
         [InlineData(2, 0, 0, 0)]
+        [InlineData(-4, -4, -1, 0)]
+        [InlineData(3, 6, 3, 0)]
         [InlineData(0, 0, 0, 0)]
         
 
