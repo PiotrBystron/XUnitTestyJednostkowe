@@ -6,6 +6,9 @@ namespace RownanieKwadratowe1.Testy
 {
     public class RownanieKwadratoweTesty
     {
+        //[Theory]
+        
+        
         public void liczRownanie_SprawdzanieObliczeñDlaDelty_i_wynikow(double a, double b, double c, double wynik)
         {
             //arrange
@@ -17,6 +20,7 @@ namespace RownanieKwadratowe1.Testy
             //act
 
             //assert
+            Assert.Equal(2,2);
 
         }
     }

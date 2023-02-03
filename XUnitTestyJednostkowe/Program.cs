@@ -8,8 +8,15 @@ namespace RownanieKwadratowe1
         public double a, b, c, x1, x2, delta;
 
 
-       
+        public void dodawanieWartosci()
+        {
 
+        }
+
+        public void liczenieRownanie()
+        {
+
+        }
 
     }
 }
