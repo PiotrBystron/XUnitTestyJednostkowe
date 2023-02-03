@@ -18,7 +18,6 @@ namespace RownanieKwadratowe1.Testy
         
 
         public void liczenieRywnania_PorownanieObliczenDlaDeltyOrazWynikuDelty(double a, double b, double c, double wynik)
-        //liczRownanie_SprawdzanieObliczeñDlaDelty_i_wyniko
         {
             //arrange
             RownanieKwadratowe o1 = new RownanieKwadratowe();
