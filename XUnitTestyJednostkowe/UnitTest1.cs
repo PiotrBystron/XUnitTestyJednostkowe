@@ -9,7 +9,7 @@ namespace RownanieKwadratowe1.Testy
         //[Theory]
         
         
-        public void liczRownanie_SprawdzanieObliczeñDlaDelty_i_wynikow(double a, double b, double c, double wynik)
+        public void sprawdzanieObliczenDelty(double a, double b, double c, double wynik)
         {
             //arrange
             RownanieKwadratowe o1 = new RownanieKwadratowe();
