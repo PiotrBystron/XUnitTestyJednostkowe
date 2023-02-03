@@ -12,15 +12,22 @@ namespace RownanieKwadratowe1
         {
             try
             {
-                Console.WriteLine("Podaj wartość a,b,c. Każdą zatwierdź Enterem");
+                Console.WriteLine("Wpisz wartości dla A, B, C. Każdą zatwierdź Enterem. Pamiętaj, że 'A' musi być różne od zera!");
 
                 a = double.Parse(Console.ReadLine());
+
+                if (a == 0)
+                {
+                    Console.WriteLine("Wartość A nie może być zerem! Nie mogę obliczyć delty!");
+                    Environment.Exit(0);
+                }
+
                 b = double.Parse(Console.ReadLine());
                 c = double.Parse(Console.ReadLine());
             }
             catch
             {
-                Console.WriteLine("Podano nieprawidłowe dane.");
+                Console.WriteLine("Podano niepoprawne dane!");
             }
         }
 
