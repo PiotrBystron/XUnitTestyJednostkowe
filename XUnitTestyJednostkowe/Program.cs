@@ -39,16 +39,23 @@ namespace RownanieKwadratowe1
             {
                 x1 = (-b - Math.Sqrt(delta)) / (2 * a);
                 x2 = (-b + Math.Sqrt(delta)) / (2 * a);
+
+                Console.WriteLine("Delta jest większa od 0. Dwa miejsca zerowe");
+                Console.WriteLine("x1 = " + x1);
+                Console.WriteLine("x2 = " + x2);
             }
 
             if (delta == 0)
             {
                 x1 = (-b / (2 * a));
+
+                Console.WriteLine("Delta wynosi 0. Jedno miejsce zerowe");
+                Console.WriteLine("x0 = " + x1);
             }
 
             if (delta < 0)
             {
-                Console.WriteLine("Delta jest ujemna - brak miejsc zerowych!");
+                Console.WriteLine("Delta jest ujemna. Brak miejsc zerowych!");
             }
 
         }
